@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "fname": "mustafa",
+        "lname": "mahmoud",
+        "age": 23,
+        "city": "El-obour"
+    },
+    {
+        "id": 3,
+        "fname": "romisaa",
+        "lname": "mahmoud",
+        "age": 21,
+        "city": "El-obour"
+    },
+    {
+        "id": 5,
+        "fname": "anas",
+        "lname": "mahmoud",
+        "age": 6,
+        "city": "El-obour"
+    },
+    {
+        "id": 7,
+        "fname": "mohammed",
+        "lname": "sabih",
+        "age": 23,
+        "city": "qaluob"
+    },
+    {
+        "id": 9,
+        "fname": "mohammed",
+        "lname": "ahmed",
+        "age": 22,
+        "city": "qaluob"
+    },
+    {
+        "id": 10,
+        "fname": "mohammed",
+        "lname": "nabil",
+        "age": 23,
+        "city": "el-obour"
+    }
+]
