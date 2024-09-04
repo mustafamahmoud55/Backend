@@ -40,6 +40,13 @@ app.get("/service",(req,res)=>{
     })
 })
 
+app.get("*",(req,res)=>{
+    res.render("other",{
+        error:"Error 404 not found page",
+
+    })
+})
+
 console.log(__dirname)
 app.listen(port,()=>{
     console.log("Done")
