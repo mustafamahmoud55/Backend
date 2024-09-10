@@ -1,0 +1,30 @@
+const mongoose=require('mongoose')
+const User=mongoose.model('User',{
+    username:{
+        type:String,
+        required:true,
+        trim:true
+    },
+    password:{
+        type:String,
+        trim:true,
+        required:true,
+        minlength:8
+    },
+    email:{
+      type:String,
+      required:true,
+      trim:true,
+      unique:true,
+      lowercase:true      
+    },
+    age:{
+        type:Number,
+        default:18,
+        trim:true
+    },
+    city:{
+        type:String
+    }
+})
+module.exports=User
